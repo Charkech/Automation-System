@@ -1,8 +1,9 @@
 const { test, expect } = require('@playwright/test');
 
 
-test('bookstore title test', async ({ page }) => {
+test('BookStore-Title Test', async ({ page }) => {
   await page.goto('https://automationbookstore.dev/');
   const title = page.locator('.ui-header .ui-title');
+  //We check if the title matches the expected value.
   await expect(title).toHaveText('Automation Bookstore');
 });

@@ -1,0 +1,22 @@
+<testsuites id="" name="" tests="5" failures="0" skipped="0" errors="0" time="6.697">
+<testsuite name="tests\api-tests\jsonplaceholderAPI\jsonplacerholder.spec.js" timestamp="1641987492453" hostname="" tests="1" failures="0" skipped="0" time="0.309" errors="0">
+<testcase name="JsonPlaceHolder API test - Working Case" classname="[chromium] › tests\api-tests\jsonplaceholderAPI\jsonplacerholder.spec.js:3:1 › JsonPlaceHolder API test - Working Case" time="0.309">
+</testcase>
+</testsuite>
+<testsuite name="tests\api-tests\petstoreAPI\postpet.spec.js" timestamp="1641987492453" hostname="" tests="1" failures="0" skipped="0" time="0.796" errors="0">
+<testcase name="PetShop API - PostPet - Working Case" classname="[chromium] › tests\api-tests\petstoreAPI\postpet.spec.js:11:1 › PetShop API - PostPet - Working Case" time="0.796">
+</testcase>
+</testsuite>
+<testsuite name="tests\ui-tests\bookstore\bookstore.spec.js" timestamp="1641987492453" hostname="" tests="1" failures="0" skipped="0" time="3.243" errors="0">
+<testcase name="Bookstore Title Test" classname="[chromium] › tests\ui-tests\bookstore\bookstore.spec.js:4:1 › Bookstore Title Test" time="3.243">
+</testcase>
+</testsuite>
+<testsuite name="tests\ui-tests\parabank\parabank-register.spec.js" timestamp="1641987492453" hostname="" tests="1" failures="0" skipped="0" time="4.713" errors="0">
+<testcase name="Para Bank - RegisterBtn Test" classname="[chromium] › tests\ui-tests\parabank\parabank-register.spec.js:3:1 › Para Bank - RegisterBtn Test" time="4.713">
+</testcase>
+</testsuite>
+<testsuite name="tests\ui-tests\parabank\parabank-title.spec.js" timestamp="1641987492453" hostname="" tests="1" failures="0" skipped="0" time="2.378" errors="0">
+<testcase name="Para Bank Title Test" classname="[chromium] › tests\ui-tests\parabank\parabank-title.spec.js:3:1 › Para Bank Title Test" time="2.378">
+</testcase>
+</testsuite>
+</testsuites>

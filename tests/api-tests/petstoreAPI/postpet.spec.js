@@ -8,7 +8,8 @@ var petOrder={
     "status": "placed",
     "complete": true
   };
-test('post pet request', async ({ request }) => {
+
+test('PetShop API - PostPet Test', async ({ request }) => {
   //Variables that will hold the results we want.
     let apiResponse,jsonBody;
   //We request a call to post a new order on a pet with the sample petOrder object we already set above.
