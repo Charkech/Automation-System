@@ -1,4 +1,5 @@
 const { test, expect } = require('@playwright/test');
+const {user} = require('./user');
 
 test.beforeEach(async ({page})=>{
   await page.goto('https://www.demoblaze.com/');
@@ -11,17 +12,17 @@ test.afterEach(async ({ page }, testInfo) => {
     console.log(`Did not run as expected, ended up at ${page.url()}`);
 });
 
-test('DemoBlaze-Login-ValidInfo-Test', async ({ page }) => {
+test('DemoBlaze-Login-ValidInfo-Test @slow', async ({ page }) => {
     //In this case we send registered credentials that should work.
     // await page.goto('https://www.demoblaze.com/'); moved this step to happen before each test case.
     //We click the Login button.
     await page.locator('#login2').click();
     //We insert id:1111 pw:1111 to the login fields.
-    await page.fill('#loginusername','1111');
+    await page.fill('#loginusername',user.id);
     //A way to check that we indeed filled the input box:
     // const content=await page.$eval("#loginusername",(el)=>el.value);
     // console.log(content);
-    await page.fill('#loginpassword','1111');
+    await page.fill('#loginpassword',user.pw);
     //We then click the Login btn.
     await page.locator('.modal-footer :text("Log in")').click();
     //Make sure we are actually logged in.
@@ -35,10 +36,10 @@ test('DemoBlaze-Login-ValidInfo-Test', async ({ page }) => {
     // console.log(titleValue);
 
     //We check if after we successfully logged in we get the welcome msg we expect to see.
-    await expect(page.locator('#nameofuser')).toHaveText('Welcome 1111');
+    await expect(page.locator('#nameofuser')).toHaveText('Welcome '+user.id);
   });
 
-  test('DemoBlaze-Register-Already Registered-Test', async({page})=>{
+  test('DemoBlaze-Register-Already Registered-Test @slow', async({page})=>{
     //We are headed to the main page and we'll first click the sign up button to pop up the registeration dialog.
     await page.locator('#signin2').click();
     //lets make sure first that the dialog pops by checking if the label of the dialog shows up.
@@ -46,8 +47,8 @@ test('DemoBlaze-Login-ValidInfo-Test', async ({ page }) => {
     await expect(signUPtext).toHaveText('Sign up');
     //We give the register page info that's already registered up and we expect to later see that it alerts us that this user
     //Already exists.
-    await page.fill('#sign-username','1111');
-    await page.fill('#sign-password','1111');
+    await page.fill('#sign-username',user.id);
+    await page.fill('#sign-password',user.pw);
     //We Send our registration request.
     await page.locator('.modal-footer :text("Sign up")').click();
 

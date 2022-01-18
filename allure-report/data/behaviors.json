@@ -2,241 +2,581 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "PetShopAPI-PostPet-ValidObject-Test",
-    "uid" : "c4073be2136afab",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1642498534505,
-      "stop" : 1642498535191,
-      "duration" : 686
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 5,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
     "name" : "JsonPlaceHolderAPI-GET-Request-Test",
-    "uid" : "27a3eacbb52ba3e2",
+    "uid" : "6900518268a6707f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1642498534505,
-      "stop" : 1642498534576,
-      "duration" : 71
+      "start" : 1642499259653,
+      "stop" : 1642499259744,
+      "duration" : 91
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 5,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "BookStore-Title-Test",
-    "uid" : "e47a600af325673c",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1642498534578,
-      "stop" : 1642498536481,
-      "duration" : 1903
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 5,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "DemoBlaze-Login-ValidInfo-Test",
-    "uid" : "44b61466ceb31969",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1642498535195,
-      "stop" : 1642498538645,
-      "duration" : 3450
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 5,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "ParaBank-RegisterBtn-Test",
-    "uid" : "4058f23753083cb4",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1642498536484,
-      "stop" : 1642498540141,
-      "duration" : 3657
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 5,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "DemoBlaze-Register-Already Registered-Test",
-    "uid" : "d3125945d5e75346",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1642498538646,
-      "stop" : 1642498540295,
-      "duration" : 1649
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 5,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "ParaBank-TitleParagraph Test",
-    "uid" : "23acc1b04d977c0a",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1642498540142,
-      "stop" : 1642498542230,
-      "duration" : 2088
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 5,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "JsonPlaceHolderAPI-GET-Request-Test",
-    "uid" : "d91dd8fe0b6a67c4",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1642498541031,
-      "stop" : 1642498541105,
-      "duration" : 74
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 5,
+    "retriesCount" : 7,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
     "name" : "PetShopAPI-PostPet-ValidObject-Test",
-    "uid" : "1a6680f6acaffa57",
+    "uid" : "d7eb6e9e024d804a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1642498541107,
-      "stop" : 1642498541719,
-      "duration" : 612
+      "start" : 1642499259653,
+      "stop" : 1642499260367,
+      "duration" : 714
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 5,
+    "retriesCount" : 7,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
     "name" : "BookStore-Title-Test",
-    "uid" : "9a6d2bdc9de1dba4",
+    "uid" : "e10d5a32397fa781",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1642498541721,
-      "stop" : 1642498543887,
-      "duration" : 2166
+      "start" : 1642499259748,
+      "stop" : 1642499261259,
+      "duration" : 1511
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 5,
+    "retriesCount" : 7,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
     "name" : "DemoBlaze-Login-ValidInfo-Test",
-    "uid" : "d4e7158d0f0e4772",
+    "uid" : "f60b06f161cfdbcb",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1642498543031,
-      "stop" : 1642498549113,
-      "duration" : 6082
+      "start" : 1642499260374,
+      "stop" : 1642499264331,
+      "duration" : 3957
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 5,
+    "retriesCount" : 7,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
     "name" : "ParaBank-RegisterBtn-Test",
-    "uid" : "e97d4ed163413e39",
+    "uid" : "a75e39000560ff92",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1642498543890,
-      "stop" : 1642498547906,
-      "duration" : 4016
+      "start" : 1642499261260,
+      "stop" : 1642499266118,
+      "duration" : 4858
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 5,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "ParaBank-TitleParagraph Test",
-    "uid" : "293e7d3f6e46cc25",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1642498547907,
-      "stop" : 1642498550600,
-      "duration" : 2693
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 5,
+    "retriesCount" : 7,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
     "name" : "DemoBlaze-Register-Already Registered-Test",
-    "uid" : "84b540adced93b78",
+    "uid" : "10acfb5a3a946507",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1642498549112,
-      "stop" : 1642498552064,
-      "duration" : 2952
+      "start" : 1642499264331,
+      "stop" : 1642499265820,
+      "duration" : 1489
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 7,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ParaBank-TitleParagraph Test",
+    "uid" : "8396edf474f6f779",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642499265822,
+      "stop" : 1642499268823,
+      "duration" : 3001
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 7,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "JsonPlaceHolderAPI-GET-Request-Test",
+    "uid" : "9b820e4439e4448b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642499266847,
+      "stop" : 1642499266931,
+      "duration" : 84
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 7,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PetShopAPI-PostPet-ValidObject-Test",
+    "uid" : "9492f1fdf8454ca0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642499266934,
+      "stop" : 1642499267588,
+      "duration" : 654
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 7,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "BookStore-Title-Test",
+    "uid" : "ebe7af1e4d161592",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642499267593,
+      "stop" : 1642499269382,
+      "duration" : 1789
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 7,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ParaBank-RegisterBtn-Test",
+    "uid" : "a963684683a614b9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642499269385,
+      "stop" : 1642499274186,
+      "duration" : 4801
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 7,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "DemoBlaze-Login-ValidInfo-Test",
+    "uid" : "d9bb2525d3759e38",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642499269652,
+      "stop" : 1642499276036,
+      "duration" : 6384
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 7,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ParaBank-TitleParagraph Test",
+    "uid" : "a30f57457a61198a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642499274187,
+      "stop" : 1642499276648,
+      "duration" : 2461
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 7,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "DemoBlaze-Register-Already Registered-Test",
+    "uid" : "bcd98f5f76be481d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642499276037,
+      "stop" : 1642499279197,
+      "duration" : 3160
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 7,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ParaBank-RegisterBtn-Test @slow",
+    "uid" : "95a27aaf8674e09f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642504505796,
+      "stop" : 1642504510486,
+      "duration" : 4690
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 4,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ParaBank-RegisterBtn-Test @slow",
+    "uid" : "6b220cb30578dac6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642504512352,
+      "stop" : 1642504516948,
+      "duration" : 4596
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 4,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ParaBank-RegisterProcess-Test @t1",
+    "uid" : "78940d7b28fd0ac0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642508653533,
+      "stop" : 1642508659787,
+      "duration" : 6254
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 8,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "ParaBank-RegisterProcess-Test @t1",
+    "uid" : "99fa8ad72bc0e0f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642508653533,
+      "stop" : 1642508662656,
+      "duration" : 9123
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 8,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "PetShopAPI-PostPet-ValidObject-Test @fast",
+    "uid" : "9111c8b418eda03d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642508756538,
+      "stop" : 1642508757232,
+      "duration" : 694
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "JsonPlaceHolderAPI-GET-Request-Test @fast",
+    "uid" : "47cddd36605c06f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642508756538,
+      "stop" : 1642508756629,
+      "duration" : 91
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "BookStore-Title-Test @fast",
+    "uid" : "7722e801d9eb1e18",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642508756632,
+      "stop" : 1642508758716,
+      "duration" : 2084
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "DemoBlaze-Login-ValidInfo-Test @slow",
+    "uid" : "9f6c94e6db8351e4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642508757237,
+      "stop" : 1642508761426,
+      "duration" : 4189
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
     "retriesCount" : 5,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ParaBank-RegisterBtn-Test @fast",
+    "uid" : "8fdb3b26df216da1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642508758719,
+      "stop" : 1642508763429,
+      "duration" : 4710
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "DemoBlaze-Register-Already Registered-Test @slow",
+    "uid" : "8b08edebc7e98fc9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642508761426,
+      "stop" : 1642508763090,
+      "duration" : 1664
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 5,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ParaBank-RegisterProcess-Test @slow",
+    "uid" : "f0dd8cad6a65c3b0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642508763092,
+      "stop" : 1642508768203,
+      "duration" : 5111
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ParaBank-TitleParagraph Test @fast",
+    "uid" : "24f4ef329b7e7b74",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642508763431,
+      "stop" : 1642508766806,
+      "duration" : 3375
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "JsonPlaceHolderAPI-GET-Request-Test @fast",
+    "uid" : "2964387057bdde76",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642508767548,
+      "stop" : 1642508767631,
+      "duration" : 83
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PetShopAPI-PostPet-ValidObject-Test @fast",
+    "uid" : "6f224f15d581c5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642508767634,
+      "stop" : 1642508768265,
+      "duration" : 631
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "DemoBlaze-Login-ValidInfo-Test @slow",
+    "uid" : "50f76694188a888d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642508768268,
+      "stop" : 1642508774413,
+      "duration" : 6145
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 5,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "BookStore-Title-Test @fast",
+    "uid" : "cefd023a066b5f9e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642508769058,
+      "stop" : 1642508770902,
+      "duration" : 1844
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ParaBank-RegisterBtn-Test @fast",
+    "uid" : "4da54002bef5b5e8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642508770905,
+      "stop" : 1642508773962,
+      "duration" : 3057
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ParaBank-RegisterProcess-Test @slow",
+    "uid" : "6c5fdad047508bb2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642508773965,
+      "stop" : 1642508780969,
+      "duration" : 7004
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "DemoBlaze-Register-Already Registered-Test @slow",
+    "uid" : "29f15aa760e52f88",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642508774413,
+      "stop" : 1642508777962,
+      "duration" : 3549
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 5,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "ParaBank-TitleParagraph Test @fast",
+    "uid" : "7908c0d5d84f7b58",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1642508777965,
+      "stop" : 1642508780023,
+      "duration" : 2058
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   } ]

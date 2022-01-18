@@ -1,0 +1,510 @@
+{
+  "uid" : "75b2854a997e992b",
+  "name" : "ParaBank-RegisterProcess-Test @t1",
+  "fullName" : "ParaBank-RegisterProcess-Test @t1",
+  "historyId" : "webkit tests\\ui-tests\\parabank\\parabank-registeration.spec.js ParaBank-RegisterProcess-Test @t1",
+  "time" : {
+    "start" : 1642506801361,
+    "stop" : 1642506808384,
+    "duration" : 7023
+  },
+  "status" : "skipped",
+  "statusMessage" : "page.waitForSelector: Target closed\n=========================== logs ===========================\nwaiting for selector \"#leftPanel\" to be visible\n============================================================",
+  "statusTrace" : "page.waitForSelector: Target closed\n=========================== logs ===========================\nwaiting for selector \"#leftPanel\" to be visible\n============================================================\n    at D:\\Qualitest\\AutomationProject\\tests\\ui-tests\\parabank\\parabank-registeration.spec.js:84:14",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "page.waitForSelector: Target closed\n=========================== logs ===========================\nwaiting for selector \"#leftPanel\" to be visible\n============================================================",
+    "statusTrace" : "page.waitForSelector: Target closed\n=========================== logs ===========================\nwaiting for selector \"#leftPanel\" to be visible\n============================================================\n    at D:\\Qualitest\\AutomationProject\\tests\\ui-tests\\parabank\\parabank-registeration.spec.js:84:14",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1642506801361,
+        "stop" : 1642506801949,
+        "duration" : 588
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1642506801739,
+          "stop" : 1642506801949,
+          "duration" : 210
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(https://parabank.parasoft.com/parabank/index.htm)",
+      "time" : {
+        "start" : 1642506801951,
+        "stop" : 1642506804848,
+        "duration" : 2897
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(text=Register)",
+      "time" : {
+        "start" : 1642506804850,
+        "stop" : 1642506805379,
+        "duration" : 529
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(input[name=\"customer.firstName\"])",
+      "time" : {
+        "start" : 1642506805379,
+        "stop" : 1642506805712,
+        "duration" : 333
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(input[name=\"customer.firstName\"])",
+      "time" : {
+        "start" : 1642506805712,
+        "stop" : 1642506805773,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.press(input[name=\"customer.firstName\"], Tab)",
+      "time" : {
+        "start" : 1642506805773,
+        "stop" : 1642506805811,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(input[name=\"customer.lastName\"])",
+      "time" : {
+        "start" : 1642506805811,
+        "stop" : 1642506805852,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(input[name=\"customer.address.street\"])",
+      "time" : {
+        "start" : 1642506805852,
+        "stop" : 1642506806024,
+        "duration" : 172
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(input[name=\"customer.address.street\"])",
+      "time" : {
+        "start" : 1642506806025,
+        "stop" : 1642506806065,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(input[name=\"customer.address.city\"])",
+      "time" : {
+        "start" : 1642506806066,
+        "stop" : 1642506806229,
+        "duration" : 163
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(input[name=\"customer.address.city\"])",
+      "time" : {
+        "start" : 1642506806230,
+        "stop" : 1642506806271,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(input[name=\"customer.address.state\"])",
+      "time" : {
+        "start" : 1642506806272,
+        "stop" : 1642506806463,
+        "duration" : 191
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(input[name=\"customer.address.state\"])",
+      "time" : {
+        "start" : 1642506806463,
+        "stop" : 1642506806503,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(input[name=\"customer.address.zipCode\"])",
+      "time" : {
+        "start" : 1642506806503,
+        "stop" : 1642506806650,
+        "duration" : 147
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(input[name=\"customer.address.zipCode\"])",
+      "time" : {
+        "start" : 1642506806650,
+        "stop" : 1642506806691,
+        "duration" : 41
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(input[name=\"customer.phoneNumber\"])",
+      "time" : {
+        "start" : 1642506806691,
+        "stop" : 1642506806883,
+        "duration" : 192
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(input[name=\"customer.phoneNumber\"])",
+      "time" : {
+        "start" : 1642506806884,
+        "stop" : 1642506806952,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(input[name=\"customer.ssn\"])",
+      "time" : {
+        "start" : 1642506806952,
+        "stop" : 1642506807163,
+        "duration" : 211
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(input[name=\"customer.ssn\"])",
+      "time" : {
+        "start" : 1642506807163,
+        "stop" : 1642506807206,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(input[name=\"customer.username\"])",
+      "time" : {
+        "start" : 1642506807207,
+        "stop" : 1642506807386,
+        "duration" : 179
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(input[name=\"customer.username\"])",
+      "time" : {
+        "start" : 1642506807386,
+        "stop" : 1642506807425,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(tr:nth-child(11) td:nth-child(2))",
+      "time" : {
+        "start" : 1642506807426,
+        "stop" : 1642506807588,
+        "duration" : 162
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(input[name=\"customer.password\"])",
+      "time" : {
+        "start" : 1642506807589,
+        "stop" : 1642506807635,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(input[name=\"repeatedPassword\"])",
+      "time" : {
+        "start" : 1642506807636,
+        "stop" : 1642506807840,
+        "duration" : 204
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(input[name=\"repeatedPassword\"])",
+      "time" : {
+        "start" : 1642506807840,
+        "stop" : 1642506807883,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(input:has-text(\"Register\"))",
+      "time" : {
+        "start" : 1642506807883,
+        "stop" : 1642506808347,
+        "duration" : 464
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.waitForSelector(#leftPanel)",
+      "time" : {
+        "start" : 1642506808351,
+        "stop" : 1642506808382,
+        "duration" : 31
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1642506808365,
+        "stop" : 1642506808384,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1642506808367,
+          "stop" : 1642506808383,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 30,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "webkit"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\ui-tests\\parabank\\parabank-registeration.spec.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "75b2854a997e992b.json",
+  "parameterValues" : [ ]
+}

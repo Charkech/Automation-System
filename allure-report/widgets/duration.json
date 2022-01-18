@@ -1,140 +1,340 @@
 [ {
-  "uid" : "e47a600af325673c",
-  "name" : "BookStore-Title-Test",
+  "uid" : "24f4ef329b7e7b74",
+  "name" : "ParaBank-TitleParagraph Test @fast",
   "time" : {
-    "start" : 1642498534578,
-    "stop" : 1642498536481,
-    "duration" : 1903
+    "start" : 1642508763431,
+    "stop" : 1642508766806,
+    "duration" : 3375
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1a6680f6acaffa57",
-  "name" : "PetShopAPI-PostPet-ValidObject-Test",
-  "time" : {
-    "start" : 1642498541107,
-    "stop" : 1642498541719,
-    "duration" : 612
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "23acc1b04d977c0a",
+  "uid" : "8396edf474f6f779",
   "name" : "ParaBank-TitleParagraph Test",
   "time" : {
-    "start" : 1642498540142,
-    "stop" : 1642498542230,
-    "duration" : 2088
+    "start" : 1642499265822,
+    "stop" : 1642499268823,
+    "duration" : 3001
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "293e7d3f6e46cc25",
-  "name" : "ParaBank-TitleParagraph Test",
+  "uid" : "78940d7b28fd0ac0",
+  "name" : "ParaBank-RegisterProcess-Test @t1",
   "time" : {
-    "start" : 1642498547907,
-    "stop" : 1642498550600,
-    "duration" : 2693
+    "start" : 1642508653533,
+    "stop" : 1642508659787,
+    "duration" : 6254
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "44b61466ceb31969",
-  "name" : "DemoBlaze-Login-ValidInfo-Test",
+  "uid" : "7722e801d9eb1e18",
+  "name" : "BookStore-Title-Test @fast",
   "time" : {
-    "start" : 1642498535195,
-    "stop" : 1642498538645,
-    "duration" : 3450
+    "start" : 1642508756632,
+    "stop" : 1642508758716,
+    "duration" : 2084
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d91dd8fe0b6a67c4",
-  "name" : "JsonPlaceHolderAPI-GET-Request-Test",
-  "time" : {
-    "start" : 1642498541031,
-    "stop" : 1642498541105,
-    "duration" : 74
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d3125945d5e75346",
-  "name" : "DemoBlaze-Register-Already Registered-Test",
-  "time" : {
-    "start" : 1642498538646,
-    "stop" : 1642498540295,
-    "duration" : 1649
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c4073be2136afab",
-  "name" : "PetShopAPI-PostPet-ValidObject-Test",
-  "time" : {
-    "start" : 1642498534505,
-    "stop" : 1642498535191,
-    "duration" : 686
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9a6d2bdc9de1dba4",
+  "uid" : "ebe7af1e4d161592",
   "name" : "BookStore-Title-Test",
   "time" : {
-    "start" : 1642498541721,
-    "stop" : 1642498543887,
-    "duration" : 2166
+    "start" : 1642499267593,
+    "stop" : 1642499269382,
+    "duration" : 1789
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4058f23753083cb4",
-  "name" : "ParaBank-RegisterBtn-Test",
+  "uid" : "8fdb3b26df216da1",
+  "name" : "ParaBank-RegisterBtn-Test @fast",
   "time" : {
-    "start" : 1642498536484,
-    "stop" : 1642498540141,
-    "duration" : 3657
+    "start" : 1642508758719,
+    "stop" : 1642508763429,
+    "duration" : 4710
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e97d4ed163413e39",
-  "name" : "ParaBank-RegisterBtn-Test",
+  "uid" : "6c5fdad047508bb2",
+  "name" : "ParaBank-RegisterProcess-Test @slow",
   "time" : {
-    "start" : 1642498543890,
-    "stop" : 1642498547906,
-    "duration" : 4016
+    "start" : 1642508773965,
+    "stop" : 1642508780969,
+    "duration" : 7004
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "27a3eacbb52ba3e2",
-  "name" : "JsonPlaceHolderAPI-GET-Request-Test",
+  "uid" : "f0dd8cad6a65c3b0",
+  "name" : "ParaBank-RegisterProcess-Test @slow",
   "time" : {
-    "start" : 1642498534505,
-    "stop" : 1642498534576,
-    "duration" : 71
+    "start" : 1642508763092,
+    "stop" : 1642508768203,
+    "duration" : 5111
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "84b540adced93b78",
-  "name" : "DemoBlaze-Register-Already Registered-Test",
+  "uid" : "9f6c94e6db8351e4",
+  "name" : "DemoBlaze-Login-ValidInfo-Test @slow",
   "time" : {
-    "start" : 1642498549112,
-    "stop" : 1642498552064,
-    "duration" : 2952
+    "start" : 1642508757237,
+    "stop" : 1642508761426,
+    "duration" : 4189
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d4e7158d0f0e4772",
+  "uid" : "29f15aa760e52f88",
+  "name" : "DemoBlaze-Register-Already Registered-Test @slow",
+  "time" : {
+    "start" : 1642508774413,
+    "stop" : 1642508777962,
+    "duration" : 3549
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9bb2525d3759e38",
   "name" : "DemoBlaze-Login-ValidInfo-Test",
   "time" : {
-    "start" : 1642498543031,
-    "stop" : 1642498549113,
-    "duration" : 6082
+    "start" : 1642499269652,
+    "stop" : 1642499276036,
+    "duration" : 6384
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a963684683a614b9",
+  "name" : "ParaBank-RegisterBtn-Test",
+  "time" : {
+    "start" : 1642499269385,
+    "stop" : 1642499274186,
+    "duration" : 4801
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2964387057bdde76",
+  "name" : "JsonPlaceHolderAPI-GET-Request-Test @fast",
+  "time" : {
+    "start" : 1642508767548,
+    "stop" : 1642508767631,
+    "duration" : 83
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f60b06f161cfdbcb",
+  "name" : "DemoBlaze-Login-ValidInfo-Test",
+  "time" : {
+    "start" : 1642499260374,
+    "stop" : 1642499264331,
+    "duration" : 3957
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4da54002bef5b5e8",
+  "name" : "ParaBank-RegisterBtn-Test @fast",
+  "time" : {
+    "start" : 1642508770905,
+    "stop" : 1642508773962,
+    "duration" : 3057
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99fa8ad72bc0e0f",
+  "name" : "ParaBank-RegisterProcess-Test @t1",
+  "time" : {
+    "start" : 1642508653533,
+    "stop" : 1642508662656,
+    "duration" : 9123
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a75e39000560ff92",
+  "name" : "ParaBank-RegisterBtn-Test",
+  "time" : {
+    "start" : 1642499261260,
+    "stop" : 1642499266118,
+    "duration" : 4858
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9111c8b418eda03d",
+  "name" : "PetShopAPI-PostPet-ValidObject-Test @fast",
+  "time" : {
+    "start" : 1642508756538,
+    "stop" : 1642508757232,
+    "duration" : 694
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f224f15d581c5",
+  "name" : "PetShopAPI-PostPet-ValidObject-Test @fast",
+  "time" : {
+    "start" : 1642508767634,
+    "stop" : 1642508768265,
+    "duration" : 631
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a30f57457a61198a",
+  "name" : "ParaBank-TitleParagraph Test",
+  "time" : {
+    "start" : 1642499274187,
+    "stop" : 1642499276648,
+    "duration" : 2461
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bcd98f5f76be481d",
+  "name" : "DemoBlaze-Register-Already Registered-Test",
+  "time" : {
+    "start" : 1642499276037,
+    "stop" : 1642499279197,
+    "duration" : 3160
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9492f1fdf8454ca0",
+  "name" : "PetShopAPI-PostPet-ValidObject-Test",
+  "time" : {
+    "start" : 1642499266934,
+    "stop" : 1642499267588,
+    "duration" : 654
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95a27aaf8674e09f",
+  "name" : "ParaBank-RegisterBtn-Test @slow",
+  "time" : {
+    "start" : 1642504505796,
+    "stop" : 1642504510486,
+    "duration" : 4690
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b220cb30578dac6",
+  "name" : "ParaBank-RegisterBtn-Test @slow",
+  "time" : {
+    "start" : 1642504512352,
+    "stop" : 1642504516948,
+    "duration" : 4596
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cefd023a066b5f9e",
+  "name" : "BookStore-Title-Test @fast",
+  "time" : {
+    "start" : 1642508769058,
+    "stop" : 1642508770902,
+    "duration" : 1844
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6900518268a6707f",
+  "name" : "JsonPlaceHolderAPI-GET-Request-Test",
+  "time" : {
+    "start" : 1642499259653,
+    "stop" : 1642499259744,
+    "duration" : 91
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50f76694188a888d",
+  "name" : "DemoBlaze-Login-ValidInfo-Test @slow",
+  "time" : {
+    "start" : 1642508768268,
+    "stop" : 1642508774413,
+    "duration" : 6145
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e10d5a32397fa781",
+  "name" : "BookStore-Title-Test",
+  "time" : {
+    "start" : 1642499259748,
+    "stop" : 1642499261259,
+    "duration" : 1511
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47cddd36605c06f",
+  "name" : "JsonPlaceHolderAPI-GET-Request-Test @fast",
+  "time" : {
+    "start" : 1642508756538,
+    "stop" : 1642508756629,
+    "duration" : 91
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7eb6e9e024d804a",
+  "name" : "PetShopAPI-PostPet-ValidObject-Test",
+  "time" : {
+    "start" : 1642499259653,
+    "stop" : 1642499260367,
+    "duration" : 714
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b820e4439e4448b",
+  "name" : "JsonPlaceHolderAPI-GET-Request-Test",
+  "time" : {
+    "start" : 1642499266847,
+    "stop" : 1642499266931,
+    "duration" : 84
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10acfb5a3a946507",
+  "name" : "DemoBlaze-Register-Already Registered-Test",
+  "time" : {
+    "start" : 1642499264331,
+    "stop" : 1642499265820,
+    "duration" : 1489
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b08edebc7e98fc9",
+  "name" : "DemoBlaze-Register-Already Registered-Test @slow",
+  "time" : {
+    "start" : 1642508761426,
+    "stop" : 1642508763090,
+    "duration" : 1664
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7908c0d5d84f7b58",
+  "name" : "ParaBank-TitleParagraph Test @fast",
+  "time" : {
+    "start" : 1642508777965,
+    "stop" : 1642508780023,
+    "duration" : 2058
   },
   "status" : "passed",
   "severity" : "normal"

@@ -1,0 +1,159 @@
+{
+  "uid" : "9b820e4439e4448b",
+  "name" : "JsonPlaceHolderAPI-GET-Request-Test",
+  "fullName" : "JsonPlaceHolderAPI-GET-Request-Test",
+  "historyId" : "webkit tests\\api-tests\\jsonplaceholderAPI\\jsonplacerholder.spec.js JsonPlaceHolderAPI-GET-Request-Test",
+  "time" : {
+    "start" : 1642499266847,
+    "stop" : 1642499266931,
+    "duration" : 84
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1642499266847,
+        "stop" : 1642499266859,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toBeTruthy",
+      "time" : {
+        "start" : 1642499266929,
+        "stop" : 1642499266930,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1642499266930,
+        "stop" : 1642499266931,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "webkit"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\api-tests\\jsonplaceholderAPI\\jsonplacerholder.spec.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "64806c4a4f054c64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642498748581,
+        "stop" : 1642498748651,
+        "duration" : 70
+      }
+    }, {
+      "uid" : "23aad5c0afcabe27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642498541031,
+        "stop" : 1642498541105,
+        "duration" : 74
+      }
+    }, {
+      "uid" : "93aba28793f3f6a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642497992513,
+        "stop" : 1642497992599,
+        "duration" : 86
+      }
+    }, {
+      "uid" : "b364c4631836217f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642496026771,
+        "stop" : 1642496026855,
+        "duration" : 84
+      }
+    }, {
+      "uid" : "e0d17cecb23ed892",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642495861183,
+        "stop" : 1642495861275,
+        "duration" : 92
+      }
+    }, {
+      "uid" : "3ff54dd8d30f7c2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642495808320,
+        "stop" : 1642495808415,
+        "duration" : 95
+      }
+    }, {
+      "uid" : "b7af475dd1cc69b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642495648387,
+        "stop" : 1642495648465,
+        "duration" : 78
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9b820e4439e4448b.json",
+  "parameterValues" : [ ]
+}

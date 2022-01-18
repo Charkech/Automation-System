@@ -1,0 +1,204 @@
+{
+  "uid" : "a30f57457a61198a",
+  "name" : "ParaBank-TitleParagraph Test",
+  "fullName" : "ParaBank-TitleParagraph Test",
+  "historyId" : "webkit tests\\ui-tests\\parabank\\parabank-title.spec.js ParaBank-TitleParagraph Test",
+  "time" : {
+    "start" : 1642499274187,
+    "stop" : 1642499276648,
+    "duration" : 2461
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1642499274187,
+        "stop" : 1642499274355,
+        "duration" : 168
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1642499274200,
+          "stop" : 1642499274355,
+          "duration" : 155
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(https://parabank.parasoft.com/parabank/index.htm)",
+      "time" : {
+        "start" : 1642499274355,
+        "stop" : 1642499276582,
+        "duration" : 2227
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toContainText",
+      "time" : {
+        "start" : 1642499276583,
+        "stop" : 1642499276645,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1642499276645,
+        "stop" : 1642499276648,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1642499276646,
+          "stop" : 1642499276648,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "webkit"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\ui-tests\\parabank\\parabank-title.spec.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "65a422e0bc05924b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642498755167,
+        "stop" : 1642498757715,
+        "duration" : 2548
+      }
+    }, {
+      "uid" : "4f3215bcc21d6dde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642498547907,
+        "stop" : 1642498550600,
+        "duration" : 2693
+      }
+    }, {
+      "uid" : "bc4260f821217be2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642497998795,
+        "stop" : 1642498002396,
+        "duration" : 3601
+      }
+    }, {
+      "uid" : "784bbd933545f039",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642496034062,
+        "stop" : 1642496036293,
+        "duration" : 2231
+      }
+    }, {
+      "uid" : "c05c620f2140d54f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642495868393,
+        "stop" : 1642495871214,
+        "duration" : 2821
+      }
+    }, {
+      "uid" : "2d3d0383723c74fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642495814460,
+        "stop" : 1642495818063,
+        "duration" : 3603
+      }
+    }, {
+      "uid" : "2ebc69a157239c5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642495655410,
+        "stop" : 1642495658366,
+        "duration" : 2956
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a30f57457a61198a.json",
+  "parameterValues" : [ ]
+}

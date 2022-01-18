@@ -1,0 +1,270 @@
+{
+  "uid" : "f60b06f161cfdbcb",
+  "name" : "DemoBlaze-Login-ValidInfo-Test",
+  "fullName" : "DemoBlaze-Login-ValidInfo-Test",
+  "historyId" : "chromium tests\\ui-tests\\demoblaze\\login.spec.js DemoBlaze-Login-ValidInfo-Test",
+  "time" : {
+    "start" : 1642499260374,
+    "stop" : 1642499264331,
+    "duration" : 3957
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1642499260375,
+        "stop" : 1642499262101,
+        "duration" : 1726
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1642499260684,
+          "stop" : 1642499260775,
+          "duration" : 91
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "page.goto(https://www.demoblaze.com/)",
+        "time" : {
+          "start" : 1642499260776,
+          "stop" : 1642499262101,
+          "duration" : 1325
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 2,
+      "hasContent" : true
+    }, {
+      "name" : "locator.click(#login2)",
+      "time" : {
+        "start" : 1642499262103,
+        "stop" : 1642499262173,
+        "duration" : 70
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(#loginusername)",
+      "time" : {
+        "start" : 1642499262173,
+        "stop" : 1642499262355,
+        "duration" : 182
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(#loginpassword)",
+      "time" : {
+        "start" : 1642499262357,
+        "stop" : 1642499262378,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click(.modal-footer :text(\"Log in\"))",
+      "time" : {
+        "start" : 1642499262378,
+        "stop" : 1642499262683,
+        "duration" : 305
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toHaveText",
+      "time" : {
+        "start" : 1642499262683,
+        "stop" : 1642499264321,
+        "duration" : 1638
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1642499264321,
+        "stop" : 1642499264331,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1642499264323,
+          "stop" : 1642499264331,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "42cc675402beaa7e",
+      "name" : "stdout",
+      "source" : "42cc675402beaa7e.txt",
+      "type" : "text/plain",
+      "size" : 59
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 10,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\ui-tests\\demoblaze\\login.spec.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2b4f5e0be2451464",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642498741884,
+        "stop" : 1642498745826,
+        "duration" : 3942
+      }
+    }, {
+      "uid" : "5980c1b04521ebee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642498535195,
+        "stop" : 1642498538645,
+        "duration" : 3450
+      }
+    }, {
+      "uid" : "e1fc7ed4d8454fdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642497984789,
+        "stop" : 1642497989140,
+        "duration" : 4351
+      }
+    }, {
+      "uid" : "f9ac4384c709e8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642496020441,
+        "stop" : 1642496024149,
+        "duration" : 3708
+      }
+    }, {
+      "uid" : "30236ba1c08099d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642495854528,
+        "stop" : 1642495858115,
+        "duration" : 3587
+      }
+    }, {
+      "uid" : "46ae1560c0b1219b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642495800354,
+        "stop" : 1642495803935,
+        "duration" : 3581
+      }
+    }, {
+      "uid" : "973123f461455552",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642495641572,
+        "stop" : 1642495645151,
+        "duration" : 3579
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f60b06f161cfdbcb.json",
+  "parameterValues" : [ ]
+}

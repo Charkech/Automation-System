@@ -1,0 +1,159 @@
+{
+  "uid" : "d7eb6e9e024d804a",
+  "name" : "PetShopAPI-PostPet-ValidObject-Test",
+  "fullName" : "PetShopAPI-PostPet-ValidObject-Test",
+  "historyId" : "chromium tests\\api-tests\\petstoreAPI\\postpet.spec.js PetShopAPI-PostPet-ValidObject-Test",
+  "time" : {
+    "start" : 1642499259653,
+    "stop" : 1642499260367,
+    "duration" : 714
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1642499259654,
+        "stop" : 1642499259662,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toBeTruthy",
+      "time" : {
+        "start" : 1642499260362,
+        "stop" : 1642499260363,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1642499260364,
+        "stop" : 1642499260367,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "chromium"
+  }, {
+    "name" : "suite",
+    "value" : "tests\\api-tests\\petstoreAPI\\postpet.spec.js"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "77426860dee20d67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642498741166,
+        "stop" : 1642498741872,
+        "duration" : 706
+      }
+    }, {
+      "uid" : "c0ed50341a8eee71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642498534505,
+        "stop" : 1642498535191,
+        "duration" : 686
+      }
+    }, {
+      "uid" : "91353e00b082bbd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642497984134,
+        "stop" : 1642497984787,
+        "duration" : 653
+      }
+    }, {
+      "uid" : "705956e37d218d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642496019764,
+        "stop" : 1642496020438,
+        "duration" : 674
+      }
+    }, {
+      "uid" : "63a5aeef0c00b24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642495853860,
+        "stop" : 1642495854525,
+        "duration" : 665
+      }
+    }, {
+      "uid" : "b133aaddb80d2add",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642495799693,
+        "stop" : 1642495800351,
+        "duration" : 658
+      }
+    }, {
+      "uid" : "352c0039eb818811",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642495640786,
+        "stop" : 1642495641568,
+        "duration" : 782
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d7eb6e9e024d804a.json",
+  "parameterValues" : [ ]
+}

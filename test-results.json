@@ -71,7 +71,7 @@
     "version": "1.17.2",
     "workers": 2,
     "webServer": null,
-    "__testGroupsCount": 12
+    "__testGroupsCount": 14
   },
   "suites": [
     {
@@ -81,9 +81,11 @@
       "column": 0,
       "specs": [
         {
-          "title": "JsonPlaceHolderAPI-GET-Request-Test",
+          "title": "JsonPlaceHolderAPI-GET-Request-Test @fast",
           "ok": true,
-          "tags": [],
+          "tags": [
+            "fast"
+          ],
           "tests": [
             {
               "timeout": 30000,
@@ -112,7 +114,7 @@
                 {
                   "workerIndex": 2,
                   "status": "passed",
-                  "duration": 84,
+                  "duration": 83,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
@@ -135,9 +137,11 @@
       "column": 0,
       "specs": [
         {
-          "title": "PetShopAPI-PostPet-ValidObject-Test",
+          "title": "PetShopAPI-PostPet-ValidObject-Test @fast",
           "ok": true,
-          "tags": [],
+          "tags": [
+            "fast"
+          ],
           "tests": [
             {
               "timeout": 30000,
@@ -148,7 +152,7 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 714,
+                  "duration": 694,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
@@ -166,7 +170,7 @@
                 {
                   "workerIndex": 2,
                   "status": "passed",
-                  "duration": 654,
+                  "duration": 631,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
@@ -177,7 +181,7 @@
             }
           ],
           "file": "tests/api-tests/petstoreAPI/postpet.spec.js",
-          "line": 13,
+          "line": 6,
           "column": 1
         }
       ]
@@ -189,9 +193,11 @@
       "column": 0,
       "specs": [
         {
-          "title": "BookStore-Title-Test",
+          "title": "BookStore-Title-Test @fast",
           "ok": true,
-          "tags": [],
+          "tags": [
+            "fast"
+          ],
           "tests": [
             {
               "timeout": 30000,
@@ -202,7 +208,7 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 1511,
+                  "duration": 2084,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
@@ -218,9 +224,9 @@
               "projectName": "webkit",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 3,
                   "status": "passed",
-                  "duration": 1789,
+                  "duration": 1844,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
@@ -243,9 +249,11 @@
       "column": 0,
       "specs": [
         {
-          "title": "DemoBlaze-Login-ValidInfo-Test",
+          "title": "DemoBlaze-Login-ValidInfo-Test @slow",
           "ok": true,
-          "tags": [],
+          "tags": [
+            "slow"
+          ],
           "tests": [
             {
               "timeout": 30000,
@@ -256,124 +264,12 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 3957,
+                  "duration": 4189,
                   "stdout": [
                     {
-                      "text": "Finished DemoBlaze-Login-ValidInfo-Test with status passed\n"
+                      "text": "Finished DemoBlaze-Login-ValidInfo-Test @slow with status passed\n"
                     }
                   ],
-                  "stderr": [],
-                  "retry": 0,
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            },
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "webkit",
-              "results": [
-                {
-                  "workerIndex": 3,
-                  "status": "passed",
-                  "duration": 6384,
-                  "stdout": [
-                    {
-                      "text": "Finished DemoBlaze-Login-ValidInfo-Test with status passed\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "file": "tests/ui-tests/demoblaze/login.spec.js",
-          "line": 14,
-          "column": 1
-        },
-        {
-          "title": "DemoBlaze-Register-Already Registered-Test",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "status": "passed",
-                  "duration": 1489,
-                  "stdout": [
-                    {
-                      "text": "Finished DemoBlaze-Register-Already Registered-Test with status passed\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            },
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "webkit",
-              "results": [
-                {
-                  "workerIndex": 3,
-                  "status": "passed",
-                  "duration": 3160,
-                  "stdout": [
-                    {
-                      "text": "Finished DemoBlaze-Register-Already Registered-Test with status passed\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "file": "tests/ui-tests/demoblaze/login.spec.js",
-          "line": 41,
-          "column": 3
-        }
-      ]
-    },
-    {
-      "title": "tests\\ui-tests\\parabank\\parabank-register.spec.js",
-      "file": "tests/ui-tests/parabank/parabank-register.spec.js",
-      "line": 0,
-      "column": 0,
-      "specs": [
-        {
-          "title": "ParaBank-RegisterBtn-Test",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 0,
-                  "status": "passed",
-                  "duration": 4858,
-                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
                   "attachments": []
@@ -390,7 +286,123 @@
                 {
                   "workerIndex": 2,
                   "status": "passed",
-                  "duration": 4801,
+                  "duration": 6145,
+                  "stdout": [
+                    {
+                      "text": "Finished DemoBlaze-Login-ValidInfo-Test @slow with status passed\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "tests/ui-tests/demoblaze/login.spec.js",
+          "line": 15,
+          "column": 1
+        },
+        {
+          "title": "DemoBlaze-Register-Already Registered-Test @slow",
+          "ok": true,
+          "tags": [
+            "slow"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 1664,
+                  "stdout": [
+                    {
+                      "text": "Finished DemoBlaze-Register-Already Registered-Test @slow with status passed\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 3549,
+                  "stdout": [
+                    {
+                      "text": "Finished DemoBlaze-Register-Already Registered-Test @slow with status passed\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "tests/ui-tests/demoblaze/login.spec.js",
+          "line": 42,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "tests\\ui-tests\\parabank\\parabank-register.spec.js",
+      "file": "tests/ui-tests/parabank/parabank-register.spec.js",
+      "line": 0,
+      "column": 0,
+      "specs": [
+        {
+          "title": "ParaBank-RegisterBtn-Test @fast",
+          "ok": true,
+          "tags": [
+            "fast"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 4710,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 3057,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
@@ -407,15 +419,17 @@
       ]
     },
     {
-      "title": "tests\\ui-tests\\parabank\\parabank-title.spec.js",
-      "file": "tests/ui-tests/parabank/parabank-title.spec.js",
+      "title": "tests\\ui-tests\\parabank\\parabank-registeration.spec.js",
+      "file": "tests/ui-tests/parabank/parabank-registeration.spec.js",
       "line": 0,
       "column": 0,
       "specs": [
         {
-          "title": "ParaBank-TitleParagraph Test",
+          "title": "ParaBank-RegisterProcess-Test @slow",
           "ok": true,
-          "tags": [],
+          "tags": [
+            "slow"
+          ],
           "tests": [
             {
               "timeout": 30000,
@@ -426,7 +440,63 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 3001,
+                  "duration": 5111,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            },
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 7004,
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "file": "tests/ui-tests/parabank/parabank-registeration.spec.js",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "tests\\ui-tests\\parabank\\parabank-title.spec.js",
+      "file": "tests/ui-tests/parabank/parabank-title.spec.js",
+      "line": 0,
+      "column": 0,
+      "specs": [
+        {
+          "title": "ParaBank-TitleParagraph Test @fast",
+          "ok": true,
+          "tags": [
+            "fast"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 3375,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
@@ -444,7 +514,7 @@
                 {
                   "workerIndex": 2,
                   "status": "passed",
-                  "duration": 2461,
+                  "duration": 2058,
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,

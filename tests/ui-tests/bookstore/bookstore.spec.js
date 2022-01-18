@@ -1,7 +1,7 @@
 const { test, expect } = require('@playwright/test');
 
 
-test('BookStore-Title-Test', async ({ page }) => {
+test('BookStore-Title-Test @fast', async ({ page }) => {
   //We open the main page of the website.
   await page.goto('https://automationbookstore.dev/');
   //We locate the header title so we can later check if it matches what we expect.
