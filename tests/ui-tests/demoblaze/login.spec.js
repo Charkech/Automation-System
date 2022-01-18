@@ -1,9 +1,19 @@
 const { test, expect } = require('@playwright/test');
 
+test.beforeEach(async ({page})=>{
+  await page.goto('https://www.demoblaze.com/');
+});
 
-test('DemoBlaze - Login Test', async ({ page }) => {
+test.afterEach(async ({ page }, testInfo) => {
+  console.log(`Finished ${testInfo.title} with status ${testInfo.status}`);
+
+  if (testInfo.status !== testInfo.expectedStatus)
+    console.log(`Did not run as expected, ended up at ${page.url()}`);
+});
+
+test('DemoBlaze-Login-ValidInfo-Test', async ({ page }) => {
     //In this case we send registered credentials that should work.
-    await page.goto('https://www.demoblaze.com/');
+    // await page.goto('https://www.demoblaze.com/'); moved this step to happen before each test case.
     //We click the Login button.
     await page.locator('#login2').click();
     //We insert id:1111 pw:1111 to the login fields.
@@ -24,5 +34,26 @@ test('DemoBlaze - Login Test', async ({ page }) => {
     // const titleValue=await (await page.waitForSelector('#nameofuser')).innerText();
     // console.log(titleValue);
 
+    //We check if after we successfully logged in we get the welcome msg we expect to see.
     await expect(page.locator('#nameofuser')).toHaveText('Welcome 1111');
+  });
+
+  test('DemoBlaze-Register-Already Registered-Test', async({page})=>{
+    //We are headed to the main page and we'll first click the sign up button to pop up the registeration dialog.
+    await page.locator('#signin2').click();
+    //lets make sure first that the dialog pops by checking if the label of the dialog shows up.
+    const signUPtext= await page.locator('#signInModalLabel');
+    await expect(signUPtext).toHaveText('Sign up');
+    //We give the register page info that's already registered up and we expect to later see that it alerts us that this user
+    //Already exists.
+    await page.fill('#sign-username','1111');
+    await page.fill('#sign-password','1111');
+    //We Send our registration request.
+    await page.locator('.modal-footer :text("Sign up")').click();
+
+    //We check that the system alerted us that this user is already registered.
+    page.on('dialog',async dialog=>{
+      expect(dialog.message()).toContain('This user already exist.');
+      await dialog.accept();
+    });
   });

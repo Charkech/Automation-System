@@ -1,5 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
+//Test valid petOrder object that the API expects to receive.
 var petOrder={
     "id": 0,
     "petId": 0,
@@ -9,7 +10,7 @@ var petOrder={
     "complete": true
   };
 
-test('PetShop API - PostPet Test', async ({ request }) => {
+test('PetShopAPI-PostPet-ValidObject-Test', async ({ request }) => {
   //Variables that will hold the results we want.
     let apiResponse,jsonBody;
   //We request a call to post a new order on a pet with the sample petOrder object we already set above.

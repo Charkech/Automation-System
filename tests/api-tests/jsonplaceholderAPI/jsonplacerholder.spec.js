@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-test('JsonPlaceHolderAPI - GET Test', async ({ request }) => {
+test('JsonPlaceHolderAPI-GET-Request-Test', async ({ request }) => {
   //Variables to store the information we need for the tests.
   let responseStatus,json;
 
