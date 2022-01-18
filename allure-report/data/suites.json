@@ -1,0 +1,299 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "chromium",
+    "children" : [ {
+      "name" : "tests\\api-tests\\petstoreAPI\\postpet.spec.js",
+      "children" : [ {
+        "name" : "PetShopAPI-PostPet-ValidObject-Test",
+        "uid" : "c4073be2136afab",
+        "parentUid" : "28946522e282c6e57f9b3454e341e71c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642498534505,
+          "stop" : 1642498535191,
+          "duration" : 686
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "28946522e282c6e57f9b3454e341e71c"
+    }, {
+      "name" : "tests\\api-tests\\jsonplaceholderAPI\\jsonplacerholder.spec.js",
+      "children" : [ {
+        "name" : "JsonPlaceHolderAPI-GET-Request-Test",
+        "uid" : "27a3eacbb52ba3e2",
+        "parentUid" : "9821649d8ab4bacc26c26ad479816047",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642498534505,
+          "stop" : 1642498534576,
+          "duration" : 71
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9821649d8ab4bacc26c26ad479816047"
+    }, {
+      "name" : "tests\\ui-tests\\bookstore\\bookstore.spec.js",
+      "children" : [ {
+        "name" : "BookStore-Title-Test",
+        "uid" : "e47a600af325673c",
+        "parentUid" : "6d392b6a60a0a14ee0446f570244c592",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642498534578,
+          "stop" : 1642498536481,
+          "duration" : 1903
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6d392b6a60a0a14ee0446f570244c592"
+    }, {
+      "name" : "tests\\ui-tests\\demoblaze\\login.spec.js",
+      "children" : [ {
+        "name" : "DemoBlaze-Login-ValidInfo-Test",
+        "uid" : "44b61466ceb31969",
+        "parentUid" : "eed5c752d951842abbabeb033224c94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642498535195,
+          "stop" : 1642498538645,
+          "duration" : 3450
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "DemoBlaze-Register-Already Registered-Test",
+        "uid" : "d3125945d5e75346",
+        "parentUid" : "eed5c752d951842abbabeb033224c94a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642498538646,
+          "stop" : 1642498540295,
+          "duration" : 1649
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eed5c752d951842abbabeb033224c94a"
+    }, {
+      "name" : "tests\\ui-tests\\parabank\\parabank-register.spec.js",
+      "children" : [ {
+        "name" : "ParaBank-RegisterBtn-Test",
+        "uid" : "4058f23753083cb4",
+        "parentUid" : "bb2d12a207ca10f2e6f9896beeef15d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642498536484,
+          "stop" : 1642498540141,
+          "duration" : 3657
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bb2d12a207ca10f2e6f9896beeef15d3"
+    }, {
+      "name" : "tests\\ui-tests\\parabank\\parabank-title.spec.js",
+      "children" : [ {
+        "name" : "ParaBank-TitleParagraph Test",
+        "uid" : "23acc1b04d977c0a",
+        "parentUid" : "ed78c59fdb401222207a853eb37f8d8e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642498540142,
+          "stop" : 1642498542230,
+          "duration" : 2088
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ed78c59fdb401222207a853eb37f8d8e"
+    } ],
+    "uid" : "36c900977e1d8b81a2c6893cc82bfc01"
+  }, {
+    "name" : "webkit",
+    "children" : [ {
+      "name" : "tests\\api-tests\\jsonplaceholderAPI\\jsonplacerholder.spec.js",
+      "children" : [ {
+        "name" : "JsonPlaceHolderAPI-GET-Request-Test",
+        "uid" : "d91dd8fe0b6a67c4",
+        "parentUid" : "bb1905e47b633ae0d2dc229f187be65b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642498541031,
+          "stop" : 1642498541105,
+          "duration" : 74
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bb1905e47b633ae0d2dc229f187be65b"
+    }, {
+      "name" : "tests\\api-tests\\petstoreAPI\\postpet.spec.js",
+      "children" : [ {
+        "name" : "PetShopAPI-PostPet-ValidObject-Test",
+        "uid" : "1a6680f6acaffa57",
+        "parentUid" : "352dba331d9f84116845a8cca29eb99a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642498541107,
+          "stop" : 1642498541719,
+          "duration" : 612
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "352dba331d9f84116845a8cca29eb99a"
+    }, {
+      "name" : "tests\\ui-tests\\bookstore\\bookstore.spec.js",
+      "children" : [ {
+        "name" : "BookStore-Title-Test",
+        "uid" : "9a6d2bdc9de1dba4",
+        "parentUid" : "3875ef3ad3402f00d50dac40a9be90a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642498541721,
+          "stop" : 1642498543887,
+          "duration" : 2166
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3875ef3ad3402f00d50dac40a9be90a5"
+    }, {
+      "name" : "tests\\ui-tests\\demoblaze\\login.spec.js",
+      "children" : [ {
+        "name" : "DemoBlaze-Login-ValidInfo-Test",
+        "uid" : "d4e7158d0f0e4772",
+        "parentUid" : "df87093beb279c401e416f1d55877b84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642498543031,
+          "stop" : 1642498549113,
+          "duration" : 6082
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "DemoBlaze-Register-Already Registered-Test",
+        "uid" : "84b540adced93b78",
+        "parentUid" : "df87093beb279c401e416f1d55877b84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642498549112,
+          "stop" : 1642498552064,
+          "duration" : 2952
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "df87093beb279c401e416f1d55877b84"
+    }, {
+      "name" : "tests\\ui-tests\\parabank\\parabank-register.spec.js",
+      "children" : [ {
+        "name" : "ParaBank-RegisterBtn-Test",
+        "uid" : "e97d4ed163413e39",
+        "parentUid" : "116f329012031e46b9139e9782e98f23",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642498543890,
+          "stop" : 1642498547906,
+          "duration" : 4016
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "116f329012031e46b9139e9782e98f23"
+    }, {
+      "name" : "tests\\ui-tests\\parabank\\parabank-title.spec.js",
+      "children" : [ {
+        "name" : "ParaBank-TitleParagraph Test",
+        "uid" : "293e7d3f6e46cc25",
+        "parentUid" : "2f41194900480f7ed24cb90394046fb7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642498547907,
+          "stop" : 1642498550600,
+          "duration" : 2693
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2f41194900480f7ed24cb90394046fb7"
+    } ],
+    "uid" : "44063b3706d66b0d346705a4a77c6704"
+  } ]
+}

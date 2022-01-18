@@ -5,7 +5,11 @@ const { devices } = require('@playwright/test');
 /** @type {import('@playwright/test').PlaywrightTestConfig} */
 const config = {
 
-  reporter: process.env.CI ? 'html' : 'line',
+  reporter: [['line'],
+  ['json', { outputFile: 'test-results.json'}],
+  ['html'],
+  ['allure-playwright'],
+  ['junit',{ outputFile: 'results.xml' }]],
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
   use: {

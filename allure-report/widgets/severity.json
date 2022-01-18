@@ -1,0 +1,141 @@
+[ {
+  "uid" : "4058f23753083cb4",
+  "name" : "ParaBank-RegisterBtn-Test",
+  "time" : {
+    "start" : 1642498536484,
+    "stop" : 1642498540141,
+    "duration" : 3657
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a6680f6acaffa57",
+  "name" : "PetShopAPI-PostPet-ValidObject-Test",
+  "time" : {
+    "start" : 1642498541107,
+    "stop" : 1642498541719,
+    "duration" : 612
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4073be2136afab",
+  "name" : "PetShopAPI-PostPet-ValidObject-Test",
+  "time" : {
+    "start" : 1642498534505,
+    "stop" : 1642498535191,
+    "duration" : 686
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a6d2bdc9de1dba4",
+  "name" : "BookStore-Title-Test",
+  "time" : {
+    "start" : 1642498541721,
+    "stop" : 1642498543887,
+    "duration" : 2166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "293e7d3f6e46cc25",
+  "name" : "ParaBank-TitleParagraph Test",
+  "time" : {
+    "start" : 1642498547907,
+    "stop" : 1642498550600,
+    "duration" : 2693
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44b61466ceb31969",
+  "name" : "DemoBlaze-Login-ValidInfo-Test",
+  "time" : {
+    "start" : 1642498535195,
+    "stop" : 1642498538645,
+    "duration" : 3450
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27a3eacbb52ba3e2",
+  "name" : "JsonPlaceHolderAPI-GET-Request-Test",
+  "time" : {
+    "start" : 1642498534505,
+    "stop" : 1642498534576,
+    "duration" : 71
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23acc1b04d977c0a",
+  "name" : "ParaBank-TitleParagraph Test",
+  "time" : {
+    "start" : 1642498540142,
+    "stop" : 1642498542230,
+    "duration" : 2088
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "84b540adced93b78",
+  "name" : "DemoBlaze-Register-Already Registered-Test",
+  "time" : {
+    "start" : 1642498549112,
+    "stop" : 1642498552064,
+    "duration" : 2952
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3125945d5e75346",
+  "name" : "DemoBlaze-Register-Already Registered-Test",
+  "time" : {
+    "start" : 1642498538646,
+    "stop" : 1642498540295,
+    "duration" : 1649
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e47a600af325673c",
+  "name" : "BookStore-Title-Test",
+  "time" : {
+    "start" : 1642498534578,
+    "stop" : 1642498536481,
+    "duration" : 1903
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e97d4ed163413e39",
+  "name" : "ParaBank-RegisterBtn-Test",
+  "time" : {
+    "start" : 1642498543890,
+    "stop" : 1642498547906,
+    "duration" : 4016
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4e7158d0f0e4772",
+  "name" : "DemoBlaze-Login-ValidInfo-Test",
+  "time" : {
+    "start" : 1642498543031,
+    "stop" : 1642498549113,
+    "duration" : 6082
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d91dd8fe0b6a67c4",
+  "name" : "JsonPlaceHolderAPI-GET-Request-Test",
+  "time" : {
+    "start" : 1642498541031,
+    "stop" : 1642498541105,
+    "duration" : 74
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
