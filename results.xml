@@ -1,78 +1,14 @@
-<testsuites id="" name="" tests="16" failures="0" skipped="0" errors="0" time="25.203">
-<testsuite name="tests\api-tests\jsonplaceholderAPI\jsonplacerholder.spec.js" timestamp="1642508755917" hostname="" tests="1" failures="0" skipped="0" time="0.091" errors="0">
-<testcase name="JsonPlaceHolderAPI-GET-Request-Test @fast" classname="[chromium] › tests\api-tests\jsonplaceholderAPI\jsonplacerholder.spec.js:3:1 › JsonPlaceHolderAPI-GET-Request-Test @fast" time="0.091">
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="111.461">
+<testsuite name="tests\ui-tests\applitools\bookstore.spec.js" timestamp="1642595187110" hostname="" tests="1" failures="0" skipped="0" time="31.214" errors="0">
+<testcase name="Applitool-Bookstore-Test @applitool" classname="[chromium] › tests\ui-tests\applitools\bookstore.spec.js:5:1 › Applitool-Bookstore-Test @applitool" time="31.214">
 </testcase>
 </testsuite>
-<testsuite name="tests\api-tests\petstoreAPI\postpet.spec.js" timestamp="1642508755917" hostname="" tests="1" failures="0" skipped="0" time="0.694" errors="0">
-<testcase name="PetShopAPI-PostPet-ValidObject-Test @fast" classname="[chromium] › tests\api-tests\petstoreAPI\postpet.spec.js:6:1 › PetShopAPI-PostPet-ValidObject-Test @fast" time="0.694">
+<testsuite name="tests\ui-tests\applitools\swaglabs.spec.js" timestamp="1642595187110" hostname="" tests="1" failures="0" skipped="0" time="58.753" errors="0">
+<testcase name="SwagLabs-Test @applitool" classname="[chromium] › tests\ui-tests\applitools\swaglabs.spec.js:5:1 › SwagLabs-Test @applitool" time="58.753">
 </testcase>
 </testsuite>
-<testsuite name="tests\ui-tests\bookstore\bookstore.spec.js" timestamp="1642508755917" hostname="" tests="1" failures="0" skipped="0" time="2.084" errors="0">
-<testcase name="BookStore-Title-Test @fast" classname="[chromium] › tests\ui-tests\bookstore\bookstore.spec.js:4:1 › BookStore-Title-Test @fast" time="2.084">
-</testcase>
-</testsuite>
-<testsuite name="tests\ui-tests\demoblaze\login.spec.js" timestamp="1642508755917" hostname="" tests="2" failures="0" skipped="0" time="5.853" errors="0">
-<testcase name="DemoBlaze-Login-ValidInfo-Test @slow" classname="[chromium] › tests\ui-tests\demoblaze\login.spec.js:15:1 › DemoBlaze-Login-ValidInfo-Test @slow" time="4.189">
-<system-out>
-Finished DemoBlaze-Login-ValidInfo-Test @slow with status passed
-
-</system-out>
-</testcase>
-<testcase name="DemoBlaze-Register-Already Registered-Test @slow" classname="[chromium] › tests\ui-tests\demoblaze\login.spec.js:42:3 › DemoBlaze-Register-Already Registered-Test @slow" time="1.664">
-<system-out>
-Finished DemoBlaze-Register-Already Registered-Test @slow with status passed
-
-</system-out>
-</testcase>
-</testsuite>
-<testsuite name="tests\ui-tests\parabank\parabank-register.spec.js" timestamp="1642508755917" hostname="" tests="1" failures="0" skipped="0" time="4.71" errors="0">
-<testcase name="ParaBank-RegisterBtn-Test @fast" classname="[chromium] › tests\ui-tests\parabank\parabank-register.spec.js:3:1 › ParaBank-RegisterBtn-Test @fast" time="4.71">
-</testcase>
-</testsuite>
-<testsuite name="tests\ui-tests\parabank\parabank-registeration.spec.js" timestamp="1642508755917" hostname="" tests="1" failures="0" skipped="0" time="5.111" errors="0">
-<testcase name="ParaBank-RegisterProcess-Test @slow" classname="[chromium] › tests\ui-tests\parabank\parabank-registeration.spec.js:3:1 › ParaBank-RegisterProcess-Test @slow" time="5.111">
-</testcase>
-</testsuite>
-<testsuite name="tests\ui-tests\parabank\parabank-title.spec.js" timestamp="1642508755917" hostname="" tests="1" failures="0" skipped="0" time="3.375" errors="0">
-<testcase name="ParaBank-TitleParagraph Test @fast" classname="[chromium] › tests\ui-tests\parabank\parabank-title.spec.js:3:1 › ParaBank-TitleParagraph Test @fast" time="3.375">
-</testcase>
-</testsuite>
-<testsuite name="tests\api-tests\jsonplaceholderAPI\jsonplacerholder.spec.js" timestamp="1642508755917" hostname="" tests="1" failures="0" skipped="0" time="0.083" errors="0">
-<testcase name="JsonPlaceHolderAPI-GET-Request-Test @fast" classname="[webkit] › tests\api-tests\jsonplaceholderAPI\jsonplacerholder.spec.js:3:1 › JsonPlaceHolderAPI-GET-Request-Test @fast" time="0.083">
-</testcase>
-</testsuite>
-<testsuite name="tests\api-tests\petstoreAPI\postpet.spec.js" timestamp="1642508755917" hostname="" tests="1" failures="0" skipped="0" time="0.631" errors="0">
-<testcase name="PetShopAPI-PostPet-ValidObject-Test @fast" classname="[webkit] › tests\api-tests\petstoreAPI\postpet.spec.js:6:1 › PetShopAPI-PostPet-ValidObject-Test @fast" time="0.631">
-</testcase>
-</testsuite>
-<testsuite name="tests\ui-tests\bookstore\bookstore.spec.js" timestamp="1642508755917" hostname="" tests="1" failures="0" skipped="0" time="1.844" errors="0">
-<testcase name="BookStore-Title-Test @fast" classname="[webkit] › tests\ui-tests\bookstore\bookstore.spec.js:4:1 › BookStore-Title-Test @fast" time="1.844">
-</testcase>
-</testsuite>
-<testsuite name="tests\ui-tests\demoblaze\login.spec.js" timestamp="1642508755917" hostname="" tests="2" failures="0" skipped="0" time="9.694" errors="0">
-<testcase name="DemoBlaze-Login-ValidInfo-Test @slow" classname="[webkit] › tests\ui-tests\demoblaze\login.spec.js:15:1 › DemoBlaze-Login-ValidInfo-Test @slow" time="6.145">
-<system-out>
-Finished DemoBlaze-Login-ValidInfo-Test @slow with status passed
-
-</system-out>
-</testcase>
-<testcase name="DemoBlaze-Register-Already Registered-Test @slow" classname="[webkit] › tests\ui-tests\demoblaze\login.spec.js:42:3 › DemoBlaze-Register-Already Registered-Test @slow" time="3.549">
-<system-out>
-Finished DemoBlaze-Register-Already Registered-Test @slow with status passed
-
-</system-out>
-</testcase>
-</testsuite>
-<testsuite name="tests\ui-tests\parabank\parabank-register.spec.js" timestamp="1642508755917" hostname="" tests="1" failures="0" skipped="0" time="3.057" errors="0">
-<testcase name="ParaBank-RegisterBtn-Test @fast" classname="[webkit] › tests\ui-tests\parabank\parabank-register.spec.js:3:1 › ParaBank-RegisterBtn-Test @fast" time="3.057">
-</testcase>
-</testsuite>
-<testsuite name="tests\ui-tests\parabank\parabank-registeration.spec.js" timestamp="1642508755917" hostname="" tests="1" failures="0" skipped="0" time="7.004" errors="0">
-<testcase name="ParaBank-RegisterProcess-Test @slow" classname="[webkit] › tests\ui-tests\parabank\parabank-registeration.spec.js:3:1 › ParaBank-RegisterProcess-Test @slow" time="7.004">
-</testcase>
-</testsuite>
-<testsuite name="tests\ui-tests\parabank\parabank-title.spec.js" timestamp="1642508755917" hostname="" tests="1" failures="0" skipped="0" time="2.058" errors="0">
-<testcase name="ParaBank-TitleParagraph Test @fast" classname="[webkit] › tests\ui-tests\parabank\parabank-title.spec.js:3:1 › ParaBank-TitleParagraph Test @fast" time="2.058">
+<testsuite name="tests\ui-tests\applitools\swaglabsultratest.spec.js" timestamp="1642595187110" hostname="" tests="1" failures="0" skipped="0" time="78.298" errors="0">
+<testcase name="UltraFast-Test @ultra @applitool" classname="[chromium] › tests\ui-tests\applitools\swaglabsultratest.spec.js:4:1 › UltraFast-Test @ultra @applitool" time="78.298">
 </testcase>
 </testsuite>
 </testsuites>

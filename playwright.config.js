@@ -4,7 +4,7 @@ const { devices } = require('@playwright/test');
 
 /** @type {import('@playwright/test').PlaywrightTestConfig} */
 const config = {
-
+  timeout:80000,
   reporter: [['line'],
   ['json', { outputFile: 'test-results.json'}],
   ['html'],
@@ -25,10 +25,10 @@ const config = {
     //   name: 'firefox',
     //   use: { ...devices['Desktop Firefox'] },
     // },
-    {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
-    },
+    // {
+    //   name: 'webkit',
+    //   use: { ...devices['Desktop Safari'] },
+    // },
   ],
 };
 

@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@applitools/eyes-playwright": "^1.11.2",
     "@playwright/test": "^1.17.2",
     "allure-commandline": "^2.17.2",
     "allure-playwright": "^2.0.0-beta.14"
