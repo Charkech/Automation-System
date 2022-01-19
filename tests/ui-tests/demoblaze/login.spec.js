@@ -12,7 +12,7 @@ test.afterEach(async ({ page }, testInfo) => {
     console.log(`Did not run as expected, ended up at ${page.url()}`);
 });
 
-test('DemoBlaze-Login-ValidInfo-Test @slow', async ({ page }) => {
+test('DemoBlaze-Login-ValidInfo-Test @slow @regular', async ({ page }) => {
     //In this case we send registered credentials that should work.
     // await page.goto('https://www.demoblaze.com/'); moved this step to happen before each test case.
     //We click the Login button.
@@ -39,7 +39,7 @@ test('DemoBlaze-Login-ValidInfo-Test @slow', async ({ page }) => {
     await expect(page.locator('#nameofuser')).toHaveText('Welcome '+user.id);
   });
 
-  test('DemoBlaze-Register-Already Registered-Test @slow', async({page})=>{
+  test('DemoBlaze-Register-Already Registered-Test @slow @regular', async({page})=>{
     //We are headed to the main page and we'll first click the sign up button to pop up the registeration dialog.
     await page.locator('#signin2').click();
     //lets make sure first that the dialog pops by checking if the label of the dialog shows up.

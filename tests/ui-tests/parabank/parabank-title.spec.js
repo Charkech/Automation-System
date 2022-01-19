@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-test('ParaBank-TitleParagraph Test @fast', async ({ page }) => {
+test('ParaBank-TitleParagraph Test @fast @regular', async ({ page }) => {
   //We open the main page of the website.
   await page.goto('https://parabank.parasoft.com/parabank/index.htm');
   //We locate the title paragraph text.

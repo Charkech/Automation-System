@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-test('ParaBank-RegisterProcess-Test @slow', async ({ page }) => {
+test('ParaBank-RegisterProcess-Test @slow @regular', async ({ page }) => {
 
   // Go to https://parabank.parasoft.com/parabank/index.htm
   await page.goto('https://parabank.parasoft.com/parabank/index.htm');
